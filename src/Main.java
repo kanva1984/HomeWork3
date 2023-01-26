@@ -14,7 +14,6 @@ public class Main {
     public static void task1() {
         System.out.println("Задача 1");
 
-
         int a = 45;
         byte b = 5;
         short c = 78;
@@ -129,10 +128,10 @@ public class Main {
         float riseDenYearSal = indexDenSal*year - denisSalary*year;
         float riseKrisSal = indexKrisSal*year - kristinaSalary*year;
         System.out.println("Маша теперь получает " + indexMashaSal + " рублей. Годовой доход вырос на " +
-                riseMashaYearSal + " рублей.");
+                riseMashaYearSal + " рублей");
         System.out.println("Денис теперь получает " + indexDenSal + " рублей. Годовой доход вырос на " +
-                riseDenYearSal + " рублей.");
+                riseDenYearSal + " рублей");
         System.out.println("Кристина теперь получает " + indexKrisSal + " рублей. Годовой доход вырос на " +
-                riseKrisSal + " рублей.");
+                riseKrisSal + " рублей");
     }
 }
